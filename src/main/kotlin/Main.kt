@@ -4,8 +4,9 @@ import kotlin.system.exitProcess
 fun main(args: Array<String>) {
     val day = args.first().toInt()
 
-    val dayFun = when(day) {
+    val dayFun = when (day) {
         1 -> ::d01
+        2 -> ::d02
         else -> null
     }
 
