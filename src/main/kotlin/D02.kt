@@ -38,5 +38,5 @@ fun d02(input: String) {
     }
 
     println("P1: $p1Points")
-    println("P1: $p2Points")
+    println("P2: $p2Points")
 }
