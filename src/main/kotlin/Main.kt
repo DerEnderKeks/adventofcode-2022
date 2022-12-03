@@ -7,6 +7,7 @@ fun main(args: Array<String>) {
     val dayFun = when (day) {
         1 -> ::d01
         2 -> ::d02
+        3 -> ::d03
         else -> null
     }
 
