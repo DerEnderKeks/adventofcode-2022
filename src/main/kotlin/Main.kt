@@ -16,6 +16,8 @@ fun main(args: Array<String>) {
         exitProcess(1)
     } else {
         val input = File("inputs/${"%02d".format(day)}.txt").readText()
+
+        println("Day $day:")
         dayFun(input)
     }
 }
