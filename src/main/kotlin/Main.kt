@@ -9,6 +9,7 @@ fun main(args: Array<String>) {
         2 -> ::d02
         3 -> ::d03
         4 -> ::d04
+        5 -> ::d05
         else -> null
     }
 
