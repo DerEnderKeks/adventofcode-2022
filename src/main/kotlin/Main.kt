@@ -10,6 +10,7 @@ fun main(args: Array<String>) {
         3 -> ::d03
         4 -> ::d04
         5 -> ::d05
+        6 -> ::d06
         else -> null
     }
 
